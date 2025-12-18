@@ -44,41 +44,41 @@ A network database represents data using a graph-like structure composed of node
 
 ### Characteristics
 
-Data is represented as nodes and sets
+- Data is represented as nodes and sets
 
-Nodes exist within a network, forming peer-to-peer relationships
+- Nodes exist within a network, forming peer-to-peer relationships
 
-Each node can act as both : owner / member
+- Each node can act as both : owner / member
 
-Designed to address limitations of hierarchical databases.
+- Designed to address limitations of hierarchical databases.
 
 **Owner node**
 
-can have one or multiple member nodes
+- can have one or multiple member nodes
 
 **Member node**
 
-Belongs to only one owner node per relatonship
+- Belongs to only one owner node per relatonship
 
-can participate in multiple relationships across the network
+- can participate in multiple relationships across the network
 
 ### Advantages
 
-Supports many-to-many relationships
+- Supports many-to-many relationships
 
-Reduces data redundancy compared to hierarchical databases
+- Reduces data redundancy compared to hierarchical databases
 
-More flexible structure for representing complex real-world relationships
+- More flexible structure for representing complex real-world relationships
 
 ### Limitations
 
-Complex structure makes design and maintenance difficult
+- Complex structure makes design and maintenance difficult
 
-High dependency on predefined relationships
+- High dependency on predefined relationships
 
-Difficult to modify schema once implemented
+- Difficult to modify schema once implemented
 
-Limited use in modern systems due to complexity
+- Limited use in modern systems due to complexity
 
 ---
 
@@ -177,31 +177,31 @@ A diagram that represents relationships between tables
 
 Used for database design
 
-Logical model / Physical model
+- Logical model / Physical model
 
 ---
 
 ## Types of NoSQL databases
 
-**Keyvalue database**
+- **Keyvalue database**
 
 Easy horizontal scaling
 
 Cannot query based on value content
 
-**Document database**
+- **Document database**
 
 Stores data as key-document format
 
 Values are stored in hierachical structures(JSON-like)
 
-**Column-family database**
+- **Column-family database**
 
 Allows different schemas per key
 
 Excellent for large-scale data compression, distributed processing, and aggregaton
 
-**Graph database**
+- **Graph database**
 
 Represents data as nodes
 
@@ -213,23 +213,23 @@ Used for social media and network analysis
 
 ## Key learnings
 
-Database types and their characteristics
+- Database types and their characteristics
 
-Hierarchical, Network, Key-Value, and Relational databases
+- Hierarchical, Network, Key-Value, and Relational databases
 
-Overview of NoSQL categories
+- Overview of NoSQL categories
 
 ---
 
 ## Reflections
 
-Learned the fundamentals of four major database types
+- Learned the fundamentals of four major database types
 
-Connected Python concepts (classes and inheritance) with database structures
+- Connected Python concepts (classes and inheritance) with database structures
 
-Practiced creating visual representations of database types using GPT
+- Practiced creating visual representations of database types using GPT
 
-Keep going!
+- Keep going!
 
 ---
 
