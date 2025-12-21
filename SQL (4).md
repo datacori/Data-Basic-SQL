@@ -215,4 +215,4 @@ From SQL fundamentals to real-world projects
 
 📧 Email: datacori00@gmail.com
 
-Blog :
+Blog : https://blog.naver.com/datacori/224114457432
