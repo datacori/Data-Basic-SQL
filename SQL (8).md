@@ -67,33 +67,157 @@ An **Entity Type** defines a group of entities that share the same structure and
 
 ---
 
-## Components of an Entity Type
+## Entity Type Classification & Attributes
 
-### Categories
-Entity types can represent different categories such as:
-- Company
-- Location
-- Person
+This document summarizes core concepts of **Entity Types and Attributes** used in data modeling and database design.
 
-### Common Attributes
-Attributes shared across entities within the same entity type, for example:
-- Name
-- Country
-- Founded Date
+---
 
-### Subtypes
-Entity types may include subtypes that inherit attributes from the parent entity type:
-- Tech Company
-- Retail Company
-- Media Company
+## Entity Type Classification
+
+### 1. Classification by Nature
+
+### Tangible Entity
+- Represents a **physical object**
+- Can be stored and used continuously  
+- Example: Product, Employee
+
+### Conceptual Entity
+- Represents an **abstract concept**
+- Does not have physical form  
+- Example: Contract, Category
+
+### Event Entity
+- Represents an **event or transaction**
+- Occurs during business operations
+- Typically generated frequently  
+- Example: Order, Payment
+
+---
+
+### 2. Classification by Time of Occurrence
+
+### Basic Entity
+- Exists independently within a business domain
+- Created as a foundational entity
+- Often acts as a **parent entity**
+
+### Central Entity
+- Derived from a basic entity
+- Plays a **core role** in business processes
+
+### Associative (Action) Entity
+- Generated from **two or more parent entities**
+- Frequently changes over time
+- Often accumulates transactional data  
+- Example: OrderDetail, Enrollment
+
+---
+
+## Entity Naming Conventions
+
+- Use **business terms** commonly used in the domain
+- Avoid abbreviations
+- Use **singular nouns** only
+
+---
+
+## Attributes
+
+- An attribute is the **smallest unit of data** that cannot be further divided
+- Each entity must contain **one or more attributes** that describe its characteristics
+- Attributes store **specific values** that define the entity in detail
 
 ---
 
 ## Key Takeaways
 
-- Entity types define the structure of database tables
-- Attributes and relationships are mandatory components of entity types
-- Subtypes enable flexible and scalable data modeling
+- Clear entity classification improves **data model readability**
+- Proper naming conventions enhance **communication between stakeholders**
+- Well-defined attributes ensure **data consistency and integrity**
 
 ---
 
+## Attribute Classification
+
+Attributes can be classified based on how they are defined and used in business and system design.
+
+---
+
+### Basic Attributes
+- Attributes defined through **business analysis**
+- Exist naturally in the business domain
+- Examples:
+  - Code values
+  - Identification numbers
+
+---
+
+### Designed Attributes
+- Attributes that **do not exist in the business domain**
+- Derived during the **database or system design phase**
+- Typically used as identifiers (keys)
+
+---
+
+### Derived Attributes
+- Attributes generated through **calculation or transformation**
+- Values are not stored directly but derived from other attributes
+- Example:
+  - Calculated amounts
+  - Aggregated values
+
+---
+
+## Attribute Naming Rules
+
+- Attribute names should clearly reflect their **meaning within the entity**
+- Use **standardized terminology** to avoid confusion
+- Follow consistent naming conventions across the model
+
+---
+
+### Key Takeaways
+
+- Proper attribute classification improves **data accuracy and maintainability**
+- Separating basic, designed, and derived attributes helps clarify **data ownership**
+- Consistent naming rules reduce ambiguity in database design
+
+---
+
+## Key Learnings
+
+- Clear distinction between **entities and entity types**
+- Understanding attributes as the **minimum unit of data**
+- Overview of different **NoSQL database types**
+
+---
+
+## Reflections
+
+- Summarizing content in writing helped identify areas where my understanding was still vague
+- I realized that an entity ultimately represents a **set of data**
+- Every entity type must include **at least one attribute**
+- Continuous documentation reinforces long-term learning  
+- Keep going 🚀
+
+---
+
+## Resources
+
+- *From Beginner to Practitioner: MySQL Basics, Query Writing, and Performance Optimization*  
+  (Lecture materials)
+
+---
+
+## Author
+
+**RYU YEJIN**  
+
+Data Analysis Learning Log
+
+From SQL Fundamentals to Practical Projects  
+
+📧 Email: datacori00@gmail.com
+
+Blog : https://blog.naver.com/datacori/224116647070
