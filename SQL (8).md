@@ -199,7 +199,7 @@ Attributes can be classified based on how they are defined and used in business 
 - I realized that an entity ultimately represents a **set of data**
 - Every entity type must include **at least one attribute**
 - Continuous documentation reinforces long-term learning  
-- Keep going 🚀
+- Keep going 
 
 ---
 
